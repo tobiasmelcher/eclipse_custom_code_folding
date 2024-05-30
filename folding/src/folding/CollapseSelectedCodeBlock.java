@@ -64,7 +64,7 @@ public class CollapseSelectedCodeBlock extends AbstractHandler {
 
 		@Override
 		public void modelChanged(IAnnotationModel model) {
-			if (!(model instanceof ProjectionAnnotationModel pam)) {
+			if (!(model instanceof ProjectionAnnotationModel)) {
 				return;
 			}
 			List<Data> annos = ANNOTATIONS.get(model);

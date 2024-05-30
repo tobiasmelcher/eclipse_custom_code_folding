@@ -37,3 +37,12 @@ Following two options are provided:
     
     ```Delete All Custom Code Foldings in Active Editor``` and 
     ```Delete Custom Code Folding at Cursor```
+
+## Installation
+Via Eclipse Update Site mechanism.
+Select Menu ```Help``` -> ```Install Update```
+Specify following update site URL in the ```Work with:``` input field:
+
+https://raw.githubusercontent.com/tobiasmelcher/eclipse_custom_code_folding/main/update_site
+
+Unselect the ```Group items by category``` checkbox and press then ```finish``` to install the plugin.
