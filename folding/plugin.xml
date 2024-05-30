@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="folding.CollapseSelectedCodeBlock"
+            id="folding.collapseSelection"
+            name="Create Custom Code Folding for Selection and Collapse">
+      </command>
+      <command
+            defaultHandler="folding.DeleteCustomCodeBlocks"
+            id="folding.deleteCustomCodeBlocks"
+            name="Delete All Custom Code Foldings in Active Editor">
+      </command>
+      <command
+            defaultHandler="folding.DeleteCustomCodeBlockAtCursor"
+            id="folding.deleteCustomCodeBlockAtCursor"
+            name="Delete Custom Code Folding at Cursor">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.core.filebuffers.documentSetup">
+      <participant
+            class="folding.DocumentSetupParticipant"
+            extensions="*">
+      </participant>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.annotationTypes">
+      <type
+            name="folding.regionProjection"
+            super="org.eclipse.projection">
+      </type>
+      <type
+            name="folding.customCreatedProjection"
+            super="org.eclipse.projection">
+      </type>
+   </extension>
+
+</plugin>

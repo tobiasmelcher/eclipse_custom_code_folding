@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Custom Code Folding Plugin
+Bundle-SymbolicName: folding;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.ui.workbench.texteditor,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors
+Automatic-Module-Name: folding
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: folding
