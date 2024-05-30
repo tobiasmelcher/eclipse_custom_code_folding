@@ -46,3 +46,6 @@ Specify following update site URL in the ```Work with:``` input field:
 https://raw.githubusercontent.com/tobiasmelcher/eclipse_custom_code_folding/main/update_site
 
 Unselect the ```Group items by category``` checkbox and press then ```finish``` to install the plugin.
+
+## Screencast
+[![Screencast](http://img.youtube.com/vi/mPblPswcki4/0.jpg)](https://www.youtube.com/watch?v=mPblPswcki4)
