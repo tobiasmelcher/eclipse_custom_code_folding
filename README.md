@@ -8,7 +8,7 @@ Following two options are provided:
         // #region main method
         public static void main(String args[])
         {
-            // #region if block
+            // #region for loop over all args
             for (String arg : args) {
                 System.out.println(arg);
             }
